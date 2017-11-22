@@ -16,6 +16,8 @@
         "body-parser": "^1.15.0",
         "express": "^4.0.0",
         "jsonpath": "^1.0.0",
+        "mysql": "^2.15.0",
+        "mysql2": "^1.5.1",
         "swaggerize-express": "^4.0.0",
         "swaggerize-ui": "^1.0.1",
         "swagmock": "~0.0.2"

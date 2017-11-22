@@ -31,6 +31,33 @@
                 "deprecated": false
             }
         },
+		
+		"/employees": {
+            "get": {
+                "tags": [
+                    "Contacts"
+                ],
+                "operationId": "employees_get",
+                "consumes": [],
+                "produces": [
+                    "application/json",
+                    "text/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Contact"
+                            }
+                        }
+                    }
+                },
+                "deprecated": false
+            }
+        },
+		
         "/contacts/{id}": {
             "get": {
                 "tags": [
